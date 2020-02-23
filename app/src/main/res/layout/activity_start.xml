@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sun.opengltest.StartActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/startText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="起始界面"
+        android:textSize="20sp"
+        android:textColor="#9BCD9B"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/changeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:text="开始AR导航" />
+</LinearLayout>
